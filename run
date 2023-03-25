@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# get src file path
+src=$1;
+
+# transform src to output file path
+outFilePath="./compiled/${src//\//_}.out"
+
+# compile the src to output path
+clang "${src}" -o "${outFilePath}"
+
+# execute the output file
+"${outFilePath}"
+
+# remove the output file once done
+rm "${outFilePath}"
