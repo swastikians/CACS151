@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-    int i, j, row, col, sw = 0;
+    int i, j, k, row, col, sw = 0;
 
     printf("\nEnter the number of rows: ");
     scanf("%d", &row);
@@ -30,20 +30,16 @@ int main() {
     }
 
     for (i = 0; i < row; i++) {
-        int temp = 0;
-
         for (j = 0; j < col; j++) {
-            printf(" %d ", temp += a[i][j] * b[j][i]);
-            /*
-                1 2    -> 1 2
-                3 4    -> 3 4
-            */
+            int temp = 0;
+
+            for (k = 0; k < col; k++) {
+                temp += a[i][k] * b[k][j];    
+            }
+
+            c[i][j] = temp;
         }
-
-        printf("\n");
     }
-
-    return 0;
 
     printf("\nMultiplication of two matrices:\n");
 
