@@ -1,3 +1,4 @@
+// function with arguments and return value
 #include<stdio.h>
 
 float sum(float a, float b);
@@ -11,7 +12,7 @@ int main() {
 
     start:
     printf("\nEnter the expression: ");
-    scanf("%f%c%f", &a, &c, &b);
+    scanf("%f%c%f", &a, &op, &b);
 
     switch(op) {
         case '+':
