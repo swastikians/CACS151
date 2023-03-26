@@ -15,6 +15,7 @@ int main() {
 }
 
 void fizzBuzz(int n, int current) {
+    // condition to terminate recursion
     if (current > n) return;
 
     if (current % 3 == 0 && current % 5 == 0) {
@@ -27,5 +28,6 @@ void fizzBuzz(int n, int current) {
         printf("%d\n", current);
     }
 
+    // recursion
     return fizzBuzz(n, ++current);
 }
