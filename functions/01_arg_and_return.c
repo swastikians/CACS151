@@ -33,7 +33,7 @@ int main() {
             break;
     }
 
-    printf("\n%f %c %f = %2f\n", a, op, b, result);
+    printf("\n%.2f %c %.2f = %.2f\n", a, op, b, result);
 
     return 0;
 }
