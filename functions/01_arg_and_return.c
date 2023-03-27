@@ -1,7 +1,7 @@
 // function with arguments and return value
 #include<stdio.h>
 
-float sum(float a, float b);
+float add(float a, float b);
 float sub(float a, float b);
 float mul(float a, float b);
 float div(float a, float b);
@@ -33,7 +33,7 @@ int main() {
             break;
     }
 
-    printf("\n%f %c %f = %2f\n", a, b, result);
+    printf("\n%f %c %f = %2f\n", a, op, b, result);
 
     return 0;
 }
