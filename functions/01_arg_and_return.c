@@ -12,7 +12,7 @@ int main() {
 
     start:
     printf("\nEnter the expression: ");
-    scanf("%f%c%f", &a, &op, &b);
+    scanf("%f %c %f", &a, &op, &b);
 
     switch(op) {
         case '+':
