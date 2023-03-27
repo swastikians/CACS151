@@ -4,18 +4,22 @@ CACS151 - C Programming examples
 
 # Contributing
 
-### Clone the repo
+1. Fork the repo
+
+2. Clone your forked repo
 
 ```
-$ git clone https://github.com/swastikians/CACS151.git
+$ git clone https://github.com/<yourName>/CACS151.git
 ```
 
-Make some changes as desired.
+3. Make some changes as desired.
 
-### Commit changes
+4. Commit changes
 
 ```
 $ git add .
 $ git commit -m "describe what you changed"
 $ git push origin main
 ```
+
+5. Open pull request
