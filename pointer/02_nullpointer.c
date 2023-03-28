@@ -3,6 +3,7 @@
 int main() {
     int a = 1;
     int *ptr = NULL;
+    // initializing ptr2 since uninitialized pointer can cause segmentation fault
     int *ptr2 = &a;
 
     if (ptr != NULL) {
