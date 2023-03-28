@@ -1,0 +1,13 @@
+{
+	"Generate program structure": {
+		"scope": "c",
+		"prefix": "!main",
+		"body": [
+			"#include<stdio.h>",
+			"",
+			"int main() {",
+			"\t${0:// code}\n\treturn 0;\n}\n"
+		],
+		"description": "Create c program structure"
+	}
+}
