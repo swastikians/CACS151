@@ -23,7 +23,7 @@ char *strlwr(char *str) {
 int main() {
     char str[] = "HELLO WORLD!";
 
-    // strlwr transforms the given string to UPPERCASE
+    // strlwr transforms the given string to lowercase
     strlwr(str);
 
     puts(str);
