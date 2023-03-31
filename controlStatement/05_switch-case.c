@@ -2,7 +2,7 @@
 
 int main() {
     int number;
-    printf("Enter a number: ");
+    printf("Enter a number 10 or 20 or 30: ");
     scanf("%d", &number);
 
     switch (number) {
@@ -19,3 +19,4 @@ int main() {
 
     return 0;
 }
+
