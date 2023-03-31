@@ -27,7 +27,9 @@ int main() {
         for (j = 0; j <= i; j++) {
             if (min > *(list + j)) {
                 min = *(list + j);
-            } else if (max < *(list + j)) {
+            }
+            
+            if (max < *(list + j)) {
                 max = *(list + j);
             }
         }
