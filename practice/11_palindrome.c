@@ -1,6 +1,7 @@
 // Program to check weather the number is palindrome or not ;
 
 #include <stdio.h>
+
 int main() {
     int num, sum = 0, rem, temp;
     printf("Enter any number");
@@ -14,9 +15,9 @@ int main() {
     }
     
     if (sum == temp) {
-        printf("The number is Pallindrome");
+        printf("The number is Palindrome");
     } else {
-        printf("The number is not pallindrome");
+        printf("The number is not palindrome");
     }
 
     return 0;
