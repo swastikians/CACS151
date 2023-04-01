@@ -24,7 +24,7 @@ int main() {
 
     // square each elements
     for (i = 0; i < n; i++) {
-        *(list + i) = *(list + i) * *(list + i);
+        *(list + i) *= *(list + i);
     }
 
     // print
